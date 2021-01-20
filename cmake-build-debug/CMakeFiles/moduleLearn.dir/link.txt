@@ -1,3 +1,0 @@
-"D:\job_install\cl_mymechine\cl\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\moduleLearn.dir/objects.a
-D:\job_install\mingw\mingw64\bin\ar.exe cr CMakeFiles\moduleLearn.dir/objects.a @CMakeFiles\moduleLearn.dir\objects1.rsp
-D:\job_install\mingw\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\moduleLearn.dir/objects.a -Wl,--no-whole-archive  -o moduleLearn.exe -Wl,--out-implib,libmoduleLearn.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\moduleLearn.dir\linklibs.rsp
