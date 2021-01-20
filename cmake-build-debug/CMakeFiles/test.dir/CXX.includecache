@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/myModule/moduleLearn/mutiThreadProgramming/code1.cpp
+iostream
+-
+chrono
+-
+thread
+-
+mutex
+-
+shared_mutex
+-
+

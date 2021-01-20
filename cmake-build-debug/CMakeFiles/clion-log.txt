@@ -1,0 +1,4 @@
+"D:\job_install\cl_mymechine\cl\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\myModule\moduleLearn
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/myModule/moduleLearn/cmake-build-debug

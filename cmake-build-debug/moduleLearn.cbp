@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="moduleLearn"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/myModule/moduleLearn/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/myModule/moduleLearn/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="atomic_test">
+				<Option output="E:/myModule/moduleLearn/cmake-build-debug/atomic_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/myModule/moduleLearn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 atomic_test"/>
+					<CompileFile command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="atomic_test/fast">
+				<Option output="E:/myModule/moduleLearn/cmake-build-debug/atomic_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/myModule/moduleLearn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 atomic_test/fast"/>
+					<CompileFile command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option output="E:/myModule/moduleLearn/cmake-build-debug/test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/myModule/moduleLearn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="E:/myModule/moduleLearn/cmake-build-debug/test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/myModule/moduleLearn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="moduleLearn">
+				<Option output="E:/myModule/moduleLearn/cmake-build-debug/moduleLearn.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/myModule/moduleLearn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 moduleLearn"/>
+					<CompileFile command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="moduleLearn/fast">
+				<Option output="E:/myModule/moduleLearn/cmake-build-debug/moduleLearn.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/myModule/moduleLearn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 moduleLearn/fast"/>
+					<CompileFile command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="future_test">
+				<Option output="E:/myModule/moduleLearn/cmake-build-debug/future_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/myModule/moduleLearn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 future_test"/>
+					<CompileFile command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="future_test/fast">
+				<Option output="E:/myModule/moduleLearn/cmake-build-debug/future_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/myModule/moduleLearn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 future_test/fast"/>
+					<CompileFile command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="promise_test">
+				<Option output="E:/myModule/moduleLearn/cmake-build-debug/promise_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/myModule/moduleLearn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 promise_test"/>
+					<CompileFile command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="promise_test/fast">
+				<Option output="E:/myModule/moduleLearn/cmake-build-debug/promise_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/myModule/moduleLearn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/job_install/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 promise_test/fast"/>
+					<CompileFile command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/myModule/moduleLearn/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/job_install/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/myModule/moduleLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/myModule/moduleLearn/mutiThreadProgramming/atomic_test.cpp">
+			<Option target="atomic_test"/>
+			<Option target="moduleLearn"/>
+		</Unit>
+		<Unit filename="E:/myModule/moduleLearn/mutiThreadProgramming/code1.cpp">
+			<Option target="test"/>
+			<Option target="moduleLearn"/>
+		</Unit>
+		<Unit filename="E:/myModule/moduleLearn/mutiThreadProgramming/future_test.cpp">
+			<Option target="moduleLearn"/>
+			<Option target="future_test"/>
+		</Unit>
+		<Unit filename="E:/myModule/moduleLearn/mutiThreadProgramming/promise_test.cpp">
+			<Option target="moduleLearn"/>
+			<Option target="promise_test"/>
+		</Unit>
+		<Unit filename="E:/myModule/moduleLearn/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
