@@ -148,6 +148,7 @@ int DeQueue1(Queue *Q) {
 	return value;
 }
 
+/* 根据英文资料更改版本 */
 int DeQueue2(Queue *Q) {
 	Node *head, *tail, *next = nullptr;
 	int value;
